@@ -375,3 +375,21 @@ Received Import Request.
   path: Assets/Sprites/Rim3.png
   artifactKey: Guid(41a8024ee15cc15449baab3f31a6ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Rim3.png using Guid(41a8024ee15cc15449baab3f31a6ce11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de314e3ea5b062ffacd3253822aafbe') in 0.032582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12972.308258 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0.033745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.692279 seconds.
+  path: Assets/Scenes/BattleHeart2.unity
+  artifactKey: Guid(7e754d65baa6bf447b3b96ac6a7ffc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BattleHeart2.unity using Guid(7e754d65baa6bf447b3b96ac6a7ffc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f51de4159c10f3298ae719aa9eea9c') in 0.015474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.344141 seconds.
+  path: Assets/Scenes/BattleHeart2Start.unity
+  artifactKey: Guid(7e754d65baa6bf447b3b96ac6a7ffc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BattleHeart2Start.unity using Guid(7e754d65baa6bf447b3b96ac6a7ffc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27d0217b2892320d896aa55892ad644') in 0.018077 seconds 
