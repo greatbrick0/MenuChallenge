@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 29410706}
   - component: {fileID: 29410705}
   - component: {fileID: 29410704}
+  - component: {fileID: 29410707}
   m_Layer: 5
   m_Name: Button3
   m_TagString: Untagged
@@ -207,7 +208,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 29410705}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 29410707}
+        m_TargetAssemblyTypeName: ButtonType1, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &29410705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,6 +259,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29410702}
   m_CullTransparentMesh: 1
+--- !u!114 &29410707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29410702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d740a13b1b711b543b03732ad9e637e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rimObjects:
+  - {fileID: 1262548798}
+  textObjects:
+  - {fileID: 1183083039}
+  rimColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
+  rimHighColour: {r: 1, g: 0.9082564, b: 0, a: 0}
+  textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
+  textHighColour: {r: 0.8584906, g: 0.7616161, b: 0.46569067, a: 1}
+  animator: {fileID: 0}
 --- !u!1 &168576607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1355,7 @@ GameObject:
   - component: {fileID: 1930649905}
   - component: {fileID: 1930649904}
   - component: {fileID: 1930649903}
+  - component: {fileID: 1930649906}
   m_Layer: 5
   m_Name: Button2
   m_TagString: Untagged
@@ -1393,7 +1428,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1930649904}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1930649906}
+        m_TargetAssemblyTypeName: ButtonType1, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1930649904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1432,6 +1479,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930649901}
   m_CullTransparentMesh: 1
+--- !u!114 &1930649906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930649901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d740a13b1b711b543b03732ad9e637e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rimObjects:
+  - {fileID: 1405920343}
+  textObjects:
+  - {fileID: 1452099683}
+  rimColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
+  rimHighColour: {r: 1, g: 0.9082564, b: 0, a: 0}
+  textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
+  textHighColour: {r: 0.8584906, g: 0.7616161, b: 0.46569067, a: 1}
+  animator: {fileID: 0}
 --- !u!1 &2058718893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1512,7 @@ GameObject:
   - component: {fileID: 2058718897}
   - component: {fileID: 2058718896}
   - component: {fileID: 2058718895}
+  - component: {fileID: 2058718899}
   m_Layer: 5
   m_Name: Button1
   m_TagString: Untagged
@@ -1517,7 +1586,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2058718896}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2058718899}
+        m_TargetAssemblyTypeName: ButtonType1, Assembly-CSharp
+        m_MethodName: Press
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2058718896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1556,6 +1637,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058718893}
   m_CullTransparentMesh: 1
+--- !u!114 &2058718899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058718893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d740a13b1b711b543b03732ad9e637e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rimObjects:
+  - {fileID: 418356653}
+  textObjects:
+  - {fileID: 2103363645}
+  - {fileID: 1415215391}
+  rimColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
+  rimHighColour: {r: 1, g: 0.9082564, b: 0, a: 0}
+  textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
+  textHighColour: {r: 0.8584906, g: 0.7616161, b: 0.46569067, a: 1}
+  animator: {fileID: 1512252416}
 --- !u!1 &2103363645
 GameObject:
   m_ObjectHideFlags: 0
