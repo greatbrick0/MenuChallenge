@@ -11,6 +11,8 @@ public class ButtonType1 : MonoBehaviour
     List<GameObject> rimObjects;
     [SerializeField]
     List<GameObject> textObjects;
+    [SerializeField]
+    AudioClip soundEffect;
 
     [Header("Decorative Colours")]
     [SerializeField]
@@ -33,6 +35,7 @@ public class ButtonType1 : MonoBehaviour
         //print(Random.Range(0, 10));
         if(animator != null) animator.SetTrigger("FileClicked");
         StartPersonalAnimation();
+        if (soundEffect != null) AudioSource.PlayClipAtPoint(soundEffect, new Vector3(0, 0, -10));
     }
 
     private void StartPersonalAnimation()

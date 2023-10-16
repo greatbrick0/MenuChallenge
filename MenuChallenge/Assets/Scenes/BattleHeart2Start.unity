@@ -275,6 +275,7 @@ MonoBehaviour:
   - {fileID: 1262548798}
   textObjects:
   - {fileID: 1183083039}
+  soundEffect: {fileID: 8300000, guid: 3b6af795f2d023c45b2f71f158ba6cbf, type: 3}
   rimColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
   rimHighColour: {r: 1, g: 0.9082564, b: 0, a: 1}
   textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
@@ -390,7 +391,7 @@ RectTransform:
   - {fileID: 1505275588}
   - {fileID: 1029357736}
   m_Father: {fileID: 1512252415}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -800,7 +801,7 @@ RectTransform:
   - {fileID: 215692861}
   - {fileID: 469757729}
   m_Father: {fileID: 1512252415}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1822,6 +1823,7 @@ GameObject:
   - component: {fileID: 1512252413}
   - component: {fileID: 1512252412}
   - component: {fileID: 1512252416}
+  - component: {fileID: 1512252417}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1906,9 +1908,9 @@ RectTransform:
   - {fileID: 2058718894}
   - {fileID: 1930649902}
   - {fileID: 29410703}
-  - {fileID: 1637672203}
   - {fileID: 201791775}
   - {fileID: 595655262}
+  - {fileID: 1637672203}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1937,6 +1939,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1512252417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512252411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9151dc7a3cb14a84aa28e7bb62f4bcf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: BattleHeart2Main
 --- !u!1 &1637672202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,7 +1983,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1512252415}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2165,6 +2180,7 @@ MonoBehaviour:
   - {fileID: 1405920343}
   textObjects:
   - {fileID: 1452099683}
+  soundEffect: {fileID: 8300000, guid: 3b6af795f2d023c45b2f71f158ba6cbf, type: 3}
   rimColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
   rimHighColour: {r: 1, g: 0.9082564, b: 0, a: 1}
   textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
@@ -2324,6 +2340,7 @@ MonoBehaviour:
   textObjects:
   - {fileID: 2103363645}
   - {fileID: 1415215391}
+  soundEffect: {fileID: 8300000, guid: 3b6af795f2d023c45b2f71f158ba6cbf, type: 3}
   rimColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
   rimHighColour: {r: 1, g: 0.9082564, b: 0, a: 1}
   textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
