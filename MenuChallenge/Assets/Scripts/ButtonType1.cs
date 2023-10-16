@@ -23,6 +23,8 @@ public class ButtonType1 : MonoBehaviour
     [Header("References")]
     [SerializeField]
     Animator animator;
+    [SerializeField]
+    string triggerName;
 
     private void Start()
     {
@@ -33,7 +35,7 @@ public class ButtonType1 : MonoBehaviour
     public void Press()
     {
         //print(Random.Range(0, 10));
-        if(animator != null) animator.SetTrigger("FileClicked");
+        if(animator != null) animator.SetTrigger(triggerName);
         StartPersonalAnimation();
         if (soundEffect != null) AudioSource.PlayClipAtPoint(soundEffect, new Vector3(0, 0, -10));
     }

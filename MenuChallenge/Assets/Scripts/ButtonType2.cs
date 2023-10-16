@@ -41,8 +41,8 @@ public class ButtonType2 : MonoBehaviour
         foreach (NewPos ii in lerpMove)
         {
             LeanTween.cancel(ii.obj);
-            LeanTween.moveLocalX(ii.obj, ii.pos.x, animationTime).setEaseOutBack();
-            LeanTween.moveLocalY(ii.obj, ii.pos.y, animationTime).setEaseOutBack();
+            LeanTween.moveLocalX(ii.obj, ii.pos.x, animationTime).setEaseOutCubic();
+            LeanTween.moveLocalY(ii.obj, ii.pos.y, animationTime).setEaseOutCubic();
         }
     }
 }

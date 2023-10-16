@@ -281,6 +281,7 @@ MonoBehaviour:
   textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
   textHighColour: {r: 0.8584906, g: 0.7616161, b: 0.46569067, a: 1}
   animator: {fileID: 0}
+  triggerName: 
 --- !u!1 &168576607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,6 +2187,7 @@ MonoBehaviour:
   textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
   textHighColour: {r: 0.8584906, g: 0.7616161, b: 0.46569067, a: 1}
   animator: {fileID: 0}
+  triggerName: 
 --- !u!1 &2058718893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2346,6 +2348,7 @@ MonoBehaviour:
   textColour: {r: 0.6415094, g: 0.3097646, b: 0, a: 1}
   textHighColour: {r: 0.8584906, g: 0.7616161, b: 0.46569067, a: 1}
   animator: {fileID: 1512252416}
+  triggerName: FileClicked
 --- !u!1 &2103363645
 GameObject:
   m_ObjectHideFlags: 0
